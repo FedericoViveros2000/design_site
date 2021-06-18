@@ -1,0 +1,97 @@
+@import './variables';
+
+@mixin flexdirection($direction, $justify) {
+    
+}
+
+
+.images{
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+
+    font-family: $font-family-secondary;
+    font-size: 2.8rem;
+    color: $white;
+    text-transform: uppercase;
+
+}
+
+.contenedor-navegacion{
+    position: absolute;
+}
+
+.paragraph-principal{
+    color: $dark-blue;
+    font-size: 1rem;
+    font-family: $font-family-principal;
+}
+
+.title-principal{
+    font-size: 1.5rem;
+    font-family: $font-family-secondary;
+    color: $dark-desaturated-blue;
+
+}
+
+.navegacion{
+    background: transparent;
+    z-index: 1000;
+}
+
+.section-cubes{
+    height: 75vh;
+}
+
+.paragraph-work{
+    color: $dark-gayish-blue;
+    font-family: $font-family-principal;
+}
+
+.title-testimonials{
+    color: $dark-gayish-blue;
+    font-size: 16px;
+    font-family: $font-family-secondary;
+    text-transform: uppercase;
+    line-height: 5;
+    letter-spacing: 2.5px;
+}
+
+.title-name{
+    font-size: 1.25rem;
+    font-family: $font-family-secondary;
+    color: #000;
+}
+
+.footer{
+    height: 50vh;
+    background-color: $footer-background-color;
+}
+
+.title-sunnside{
+    font-size: 24px;
+    
+    text-transform: uppercase;
+    color: $dark;
+    font-family: $font-family-secondary;
+}
+
+.paragraph{
+    color: $dark-gayish-blue;
+    font-weight: $font-weight-normal;
+    font-family: $font-family-principal;
+    text-align: justify;
+}
+
+.text-nav{
+    text-decoration: none;
+    color: $dark-gayish-blue;
+    list-style: none;
+    font-size: 16px;
+    font-weight: $font-weight-normal;
+}
+

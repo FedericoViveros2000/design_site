@@ -1,0 +1,94 @@
+/* 
+    ?Colores y fuentes utilizadas
+*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+/* 
+    ?Fuentes y tamanhos utilzados
+*/
+.images {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+  font-size: 2.8rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.contenedor-navegacion {
+  position: absolute;
+}
+
+.paragraph-principal {
+  color: #19536b;
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.title-principal {
+  font-size: 1.5rem;
+  font-family: "Fraunces", serif;
+  color: #23303e;
+}
+
+.navegacion {
+  background: transparent;
+  z-index: 1000;
+}
+
+.section-cubes {
+  height: 75vh;
+}
+
+.paragraph-work {
+  color: #818498;
+  font-family: "Barlow", sans-serif;
+}
+
+.title-testimonials {
+  color: #818498;
+  font-size: 16px;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  line-height: 5;
+  letter-spacing: 2.5px;
+}
+
+.title-name {
+  font-size: 1.25rem;
+  font-family: "Fraunces", serif;
+  color: #000;
+}
+
+.footer {
+  height: 50vh;
+  background-color: #92eee2;
+}
+
+.title-sunnside {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #25564b;
+  font-family: "Fraunces", serif;
+}
+
+.paragraph {
+  color: #818498;
+  font-weight: 700;
+  font-family: "Barlow", sans-serif;
+  text-align: justify;
+}
+
+.text-nav {
+  text-decoration: none;
+  color: #818498;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */
